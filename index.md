@@ -71,15 +71,15 @@ while True:
 
 #### Your Pico W should now start blinking its tiny onboard LED every half second! 🎉
 
-🧠 How It Works
+🧠 ###How It Works
 Line	What It Does
-import machine	Lets you control the hardware
+```import machine	Lets you control the hardware
 import time	Lets you add delays
 machine.Pin("LED", OUT)	Sets the onboard LED pin as an output
 led.toggle()	Changes the LED state (on → off → on...)
 time.sleep(0.5)	Waits half a second between each toggle
-
-####🌱 What's Next?
+```
+🌱 ####What's Next?
 Now that you’ve got your first LED blink working, try these ideas:
 
 Change the speed (sleep(0.1) = faster blink)
@@ -90,7 +90,7 @@ Control an external LED on another GPIO pin
 
 Connect to Wi-Fi and control the LED from a web browser
 
-💬 Need Help or Want to Contribute?
+💬 ###Need Help or Want to Contribute?
 Feel free to:
 
 ⭐ Star this repo
