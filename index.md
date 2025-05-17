@@ -67,3 +67,43 @@ led = machine.Pin("LED", machine.Pin.OUT)
 while True:
     led.toggle()
     time.sleep(0.5)
+``` 
+
+#### Your Pico W should now start blinking its tiny onboard LED every half second! 🎉
+
+🧠 How It Works
+Line	What It Does
+import machine	Lets you control the hardware
+import time	Lets you add delays
+machine.Pin("LED", OUT)	Sets the onboard LED pin as an output
+led.toggle()	Changes the LED state (on → off → on...)
+time.sleep(0.5)	Waits half a second between each toggle
+
+####🌱 What's Next?
+Now that you’ve got your first LED blink working, try these ideas:
+
+Change the speed (sleep(0.1) = faster blink)
+
+Use led.on() and led.off() instead of toggle()
+
+Control an external LED on another GPIO pin
+
+Connect to Wi-Fi and control the LED from a web browser
+
+💬 Need Help or Want to Contribute?
+Feel free to:
+
+⭐ Star this repo
+
+🐛 Open an issue
+
+🍴 Fork and extend this tutorial
+
+📢 Share your version!
+
+🙏 Thanks for Reading!
+You're now a MicroPython maker! 🔧
+More beginner projects are coming soon.
+
+— This post is part of the Raspberry Pi Pico W beginner blog series.
+
